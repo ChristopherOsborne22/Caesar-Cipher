@@ -1,4 +1,3 @@
-# Your next task: decrypt the below
 import string
 try:
     text = input("Enter your message: ")
@@ -32,11 +31,3 @@ try:
     print(cipher)
 except ValueError:
     print("You have entered an invalid shift value")
-
-
-# The below is for upper-case letter in decryption:
-# elif char.isupper():
-# code = ord(char) - shift
-# while code < ord('A'):
-#     remainder = shift - (ord(char) - ord('A'))
-#     code = ord('Z') - remainder + 1
